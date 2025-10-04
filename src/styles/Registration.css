@@ -1,0 +1,15 @@
+/* Center registration form on screen */
+.registration-wrapper {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  min-height: 100vh;       /* full viewport height */
+  background-color: #f5f7fa; /* optional */
+  padding: 20px;           /* optional */
+}
+
+.registration-card {
+  width: 100%;
+  max-width: 600px;        /* card width */
+}
+

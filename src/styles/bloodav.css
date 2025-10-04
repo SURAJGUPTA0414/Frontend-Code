@@ -1,0 +1,97 @@
+/* bloodav.css */
+
+body {
+  background: #f8f9fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-av {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 25px 30px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.header-av {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  color: #c82333;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #c82333;
+  padding-bottom: 10px;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+select:focus {
+  border-color: #c82333;
+  box-shadow: 0 0 5px rgba(200, 35, 51, 0.5);
+}
+
+.search-button-container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-button {
+  background: #c82333;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.search-button:hover {
+  background: #a71d2a;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+
+.search-button:active {
+  transform: scale(0.97);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

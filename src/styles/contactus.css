@@ -1,0 +1,61 @@
+body {
+      background: linear-gradient(135deg, #ffe5e5 0%, #fff 100%);
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+
+    .hero {
+      padding: 3rem 0;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-weight: 700;
+      color: #b30000;
+    }
+
+    .hero p {
+      color: #555;
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(12px);
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+      padding: 2rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .glass-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+    }
+
+    .form-control, .form-select {
+      border-radius: 8px;
+    }
+
+    .btn-danger {
+      background: linear-gradient(45deg, #d90429, #ef233c);
+      border: none;
+      border-radius: 8px;
+      padding: 0.6rem 1.2rem;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    .btn-danger:hover {
+      background: linear-gradient(45deg, #ef233c, #d90429);
+      transform: scale(1.05);
+    }
+
+    .contact-info h5, .contact-info h6 {
+      color: #b30000;
+      font-weight: 600;
+    }
+
+    .map-placeholder {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }

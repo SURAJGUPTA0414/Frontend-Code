@@ -1,0 +1,197 @@
+.navbar .nav-link {
+    font-weight: 500;
+    color: #fff;
+    transition: 0.3s;
+  }
+  .navbar .nav-link:hover {
+    color: #FFD700 !important;
+  }
+  .dropdown-menu {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .dropdown-item:hover {
+    background: #B22222;
+    color: white;
+  }
+
+  /* Service Buttons - Equal Size */
+.service-btn {
+  width: 200px;
+  height: 150px; /* Fixed equal height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Align vertically */
+  align-items: center;      /* Align horizontally */
+  text-align: center;
+  border: 2px solid #dc3545;
+  border-radius: 20px;
+  background: #fff;
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+              background 0.45s ease-in-out,
+              color 0.35s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+/* Image inside button */
+.service-btn img {
+  max-width: 70px;
+  height: auto;
+  margin-bottom: 10px;
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Text inside button */
+.service-btn span {
+  font-size: 16px;
+  font-weight: 600;
+  color: inherit;
+}
+
+/* Hover effect */
+.service-btn:hover {
+  background: linear-gradient(135deg, #dc3545, #a71d2a);
+  color: #fff;
+  transform: translateY(-7px);
+  box-shadow: 0 12px 28px rgba(220, 53, 69, 0.55);
+}
+
+.service-btn:hover img {
+  transform: scale(1.12);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .service-btn {
+    width: 170px;
+    height: 160px;
+  }
+  .service-btn img {
+    max-width: 60px;
+  }
+  .service-btn span {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .service-btn {
+    width: 140px;
+    height: 140px;
+  }
+  .service-btn img {
+    max-width: 50px;
+  }
+  .service-btn span {
+    font-size: 13px;
+  }
+}
+
+/* =========================
+   Blood Donation Section
+========================= */
+.blood-type-section {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.select-type-header {
+  font-size: 26px;
+  font-weight: 700;
+  color: #ff3b3f;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 4px rgba(255, 59, 63, 0.4);
+}
+
+.blood-type-line {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.blood-type-button {
+  background: linear-gradient(45deg, #ff4b2b, #ff416c);
+  color: white;
+  border: none;
+  padding: 14px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(255, 65, 108, 0.3);
+  transition: all 0.3s ease;
+}
+
+.blood-type-button:hover {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  box-shadow: 0 6px 15px rgba(255, 65, 108, 0.5);
+}
+
+.blood-type-button.active {
+  background: linear-gradient(45deg, #ff512f, #dd2476);
+  box-shadow: 0 8px 20px rgba(221, 36, 118, 0.6);
+  transform: scale(1.2);
+}
+
+/* Info Boxes */
+.donation-info-section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-box {
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 280px;
+  box-sizing: border-box;
+}
+
+.info-box.receive {
+  background-color: #e0f2f7;
+  border-left: 5px solid #a8dadc;
+}
+
+.info-box.donate {
+  background-color: #ffebe6;
+  border-left: 5px solid #f28482;
+}
+
+.info-box h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.info-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-box li {
+  padding: 5px 0;
+  color: #555;
+}
+
+/* Illustration */
+.illustration-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.illustration-section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.illustration-section p {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #333;
+}

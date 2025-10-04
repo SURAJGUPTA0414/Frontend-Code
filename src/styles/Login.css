@@ -1,0 +1,27 @@
+
+.login-card {
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      width: 320px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .form-control {
+      border-radius: 8px;
+    }
+
+    .btn-danger {
+      border-radius: 8px;
+      width: 100%;
+    }
+
+
+    .login-card a {
+      color: #dc3545;
+      text-decoration: none;
+    }
+
+    .login-card a:hover {
+      text-decoration: underline;
+    }
