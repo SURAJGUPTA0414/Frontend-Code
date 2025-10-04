@@ -16,7 +16,7 @@ function Dashboardsidebar({ activeItem, setActiveComponent }) {
   return (
     <div className="sidebar">
       {/* Logout button at the top */}
-      <div style={{ display: "flex", justifyContent: "flex-end", padding: "10px" }}>
+      {/* <div style={{ display: "flex", justifyContent: "flex-end", padding: "10px" }}>
         <button
           onClick={handleLogout}
           style={{
@@ -30,7 +30,7 @@ function Dashboardsidebar({ activeItem, setActiveComponent }) {
         >
           Logout
         </button>
-      </div>
+      </div> */}
 
       <div className="logo" style={{ marginBottom: "20px" }}>Blood Bank</div>
 
